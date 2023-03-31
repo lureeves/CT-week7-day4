@@ -22,10 +22,6 @@ function buildTaskList(taskName){
 
     // Check if the taskDisplay element exists
     let taskDisplay = document.getElementById('taskDisplay');
-    if (!taskDisplay) {
-        console.error('taskDisplay element not found!');
-        return;
-    }
 
     // Create a container div for the list
     let listContainer = document.createElement('div');
